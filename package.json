@@ -1,0 +1,27 @@
+{
+  "name": "http-statuscode",
+  "version": "0.0.0",
+  "description": "get status code mean in commandline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariubs/http-statuscode.git"
+  },
+  "bin": {
+    "statuscode": "index.js"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "statuscode"
+  ],
+  "author": "Dariush Abbasi < poshtehani@gmail.com >",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dariubs/http-statuscode/issues"
+  },
+  "homepage": "https://github.com/dariubs/http-statuscode#readme"
+}

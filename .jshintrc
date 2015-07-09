@@ -1,0 +1,12 @@
+{
+	"bitwise": true,
+	"curly": true,
+	"eqeqeq": true,
+	"freeze": true,
+	"strict": true,
+	"node": true,
+	"esnext": true,
+	"undef": true,
+	"unused": "vars",
+	"strict": true
+}
