@@ -73,19 +73,19 @@ exports.codes = {
 	},
 	"305" : {
 		minidef: "Use Proxy (since HTTP/1.1)",
-		maxidef: "The requested resource is only available through a proxy, whose address is provided in the response. Many HTTP clients (such as Mozilla[9] and Internet Explorer) do not correctly handle responses with this status code, primarily for security reasons.[10]"
+		maxidef: "The requested resource is only available through a proxy, whose address is provided in the response. Many HTTP clients (such as Mozilla and Internet Explorer) do not correctly handle responses with this status code, primarily for security reasons."
 	},
 	"306" : {
 		minidef: "Switch Proxy",
-		maxidef: "No longer used. Originally meant \"Subsequent requests should use the specified proxy.\"[11]"
+		maxidef: "No longer used. Originally meant \"Subsequent requests should use the specified proxy.\""
 	},
 	"307" : {
 		minidef: "Temporary Redirect (since HTTP/1.1)",
-		maxidef: "In this case, the request should be repeated with another URI; however, future requests should still use the original URI. In contrast to how 302 was historically implemented, the request method is not allowed to be changed when reissuing the original request. For instance, a POST request should be repeated using another POST request.[12]"
+		maxidef: "In this case, the request should be repeated with another URI; however, future requests should still use the original URI. In contrast to how 302 was historically implemented, the request method is not allowed to be changed when reissuing the original request. For instance, a POST request should be repeated using another POST request."
 	},
 	"308" : {
 		minidef: "Permanent Redirect (RFC 7538)",
-		maxidef: "The request, and all future requests should be repeated using another URI. 307 and 308 (as proposed) parallel the behaviours of 302 and 301, but do not allow the HTTP method to change. So, for example, submitting a form to a permanently redirected resource may continue smoothly.[13]"
+		maxidef: "The request, and all future requests should be repeated using another URI. 307 and 308 (as proposed) parallel the behaviours of 302 and 301, but do not allow the HTTP method to change. So, for example, submitting a form to a permanently redirected resource may continue smoothly."
 	},
 	"400" : {
 		minidef: "Bad Request",
@@ -129,7 +129,7 @@ exports.codes = {
 	},
 	"410" : {
 		minidef: "Gone",
-		maxidef: "Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource again in the future. Clients such as search engines should remove the resource from their indices.[16] Most use cases do not require clients and search engines to purge the resource, and a \"404 Not Found\" may be used instead."
+		maxidef: "Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource again in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a \"404 Not Found\" may be used instead."
 	},
 	"411" : {
 		minidef: "Length Required",
@@ -221,7 +221,7 @@ exports.codes = {
 	},
 	"451" : {
 		minidef: "Unavailable For Legal Reasons (Internet draft)",
-		maxidef: "Defined in the internet draft \"A New HTTP Status Code for Legally-restricted Resources\".[23] Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed.[24]"
+		maxidef: "Defined in the internet draft \"A New HTTP Status Code for Legally-restricted Resources\". Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed."
 	},
 	"494" : {
 		minidef: "Request Header Too Large (Nginx)",
